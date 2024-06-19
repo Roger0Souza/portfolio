@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seu Nome - Portfólio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .body1 {
+            background-color: rgba(193, 239, 237, 0.689);
+            background-image: url('livro-aberto-vintage-isolado_118047-1364-removebg.png');  
+            background-repeat: no-repeat;
+            background-size: 80% 85%;
+            background-position: center;
+            background-attachment: fixed;
+            border: 1px solid #000;
+            border-radius: 10px;
+            box-shadow: 30px 30px 30px 30px rgba(0,0,0,0.75);
+            margin: 10px;
+            height: 90vh;
+            width: 90vw;
+            position: relative;
+            top: 10px;
+            left: 60px;
+            
+        }
+        .column-social {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            position: absolute;
+            left: 130px;
+            top: 320px;
+            
+        }
+        .main {
+            display: flex;
+            justify-content: space-between;
+        }
+        .first-column {
+            margin-left: 140px;
+            margin-right: 150px;
+            font-family: "Courier New", Courier, monospace;
+            font-weight: bold;
+            max-width: max-content;
+        }
+        .second-column {
+            font-family: "Courier New", Courier, monospace;
+            font-weight: bold;
+            max-width: max-content;
+        }
+        .first-column p {
+            max-width: 270px;
+            text-align: justify;
+        }
+        .second-column p {
+            max-width: 400px;
+            text-align: justify;
+            
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .welcome {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center; /* Para centralizar o texto dentro da div */
+            background: linear-gradient(90deg, #ff0000, #000000, #ff0000); /* Define um gradiente de cor como fundo */
+            background-size: 200% auto;
+            color: transparent; /* Faz com que a cor do texto seja transparente, para que o fundo possa ser visto */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradient 5s ease infinite, sizechange 2s infinite; /* Adiciona uma segunda animação para mudar a cor do texto */
+            font-weight: bold; /* Faz o texto ficar em negrito */
+            font-family: 'Brush Script MT', cursive; /* Muda a fonte do texto */
+            font-size: 2em; /* Aumenta o tamanho da fonte */
+
+        }
+         img {
+            position: absolute;
+            top: 60px;
+            left: 130px;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 10px;
+        }
+        
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        @keyframes sizechange {
+            0% { font-size: 2em; }
+            50% { font-size: 2.1em; }
+            100% { font-size: 2em; }
+        }
+        .social-1 a {
+            font-size: 40px;
+            margin: 10px;
+            display: inline-block;
+            background-image: linear-gradient(270deg, #ffffff 0%, #0c0fe2 100%);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: gradient 4s linear infinite;
+                
+        }
+        .social-1 a:hover{
+            background-image: none;
+            background-color: rgb(45, 45, 246);
+            transform: scale(1.2);
+}
+        .social-2 a {
+            font-size: 40px;
+            margin: 10px;
+            display: inline-block;
+            background-image: linear-gradient(270deg, #ffffff 0%, #000000 100%);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: gradient 4s linear infinite;
+                
+        }
+        .social-2 a:hover{
+            background-image: none;
+            background-color: rgb(28, 28, 28);
+            transform: scale(1.2);
+        }
+        h2 {
+            font-size: 18px;
+        }
+        .first-column .indentado {
+            text-indent: 30px;
+        }
+        .second-column .indentado {
+            text-indent: 30px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="body1">
+        <h1 class="welcome">Bem-vindo ao meu portfólio!</h1>
+        <div class="container">
+                <div class="main">
+                    <div class="first-column">
+                        <img src="th.jpg" alt="Avatar">
+                        <p>Sou Roger, Desenvolvedor!</p>
+                        <p>Sobre mim:</p>
+                        <p class="indentado">Atualmente, resido na cidade de São Carlos e estou cursando Física Computacional pela USP. Concluí o curso técnico em Desenvolvimento de Software na Etec enquanto ainda estava no ensino médio. Desde então, mantenho um forte interesse por tecnologia, o que me motivou a seguir minha formação na Universidade de São Paulo (USP), focando em Ciência e Tecnologia.</p>
+                        <p>Algumas das minhas redes sociais</p>
+                        <p> <-- </p>
+                        <div class="column-social"> 
+                            <h2>Contatos:  </h2>
+                            <div class="social-1">
+                                <a href="https://www.linkedin.com/in/roger-souza-74b7891b5/" target="_blank"><i class="fab fa-linkedin"></i></a>    
+                            </div>
+                            <div class="social-2"> 
+                                <a href="https://github.com/Roger0Souza" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="second-column">
+                        <p> Projetos: </p>
+                        <p class="indentado"> Participei do projeto <u>RUFUS ICMC</u>, comandando pela Professora Dra. Kamila Rios da Hora Rodrigues, minhas competências eram fazer manutenção do front-end so site: <a href="https://rufus.icmc.usp.br/" target="_blank">rufus.icmc.usp.br/</a> usando tecnologias como <u>React</u> </p>
+                        <p class="comp">
+                            <u>Competências:</u>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>React</li>
+                                <li>Python</li>
+                                <li>Java</li>
+                                <li>SQL</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+        </div>
+    </div>
+        
+    </body>
+</html>
