@@ -1,7 +1,7 @@
 {
   "name": "developerfolio",
   "version": "0.1.0",
-  "homepage": "https://Roger0Souza.github.io/portfolio",
+  "homepage": "https://Roger0Souza.github.io/portfolio/src/index.js",
   "private": true,
   "dependencies": {
     "colorthief": "^2.3.0",
